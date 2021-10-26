@@ -458,16 +458,16 @@
   width: 23%;
   margin: 15px 0;
   border-radius: 10px;
-  box-shadow: 1px 7px 9px #929191;
+  border: 1px solid #ebe7e7;
   display: grid;
   place-items: center;
   padding: 27px 0;
-  transition: all 0.8s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .restaurants .restaurants-img {
   width: 150px;
 }
 .restaurants:hover {
-  transform: rotate(360deg);
-  box-shadow: 0 0 10px gray;
+  border: none;
+  box-shadow: 0 0 20px gray;
 }
