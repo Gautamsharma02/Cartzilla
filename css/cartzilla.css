@@ -27,7 +27,7 @@
   align-items: center;
 }
 .menu-container {
-  max-width: 1200px;
+  max-width: 97%;
   margin: auto;
 }
 .menu-link {
@@ -126,6 +126,9 @@
   color: #757070;
   display: inline-block;
   padding: 5px 0;
+}
+.menu-link .menu-unactive {
+  display: none;
 }
 .cuisine:hover .cuisine-dropdown {
   display: block !important;
@@ -470,4 +473,16 @@
 .restaurants:hover {
   border: none;
   box-shadow: 0 0 20px gray;
+}
+@media (max-width:991px) {
+  .menu-link .menu-unactive {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 90vw;
+    margin: auto;
+  }
+  .menu-link .menu-unactive ul .new-york-li {
+    background-color: #f1f8ff;
+  }
 }

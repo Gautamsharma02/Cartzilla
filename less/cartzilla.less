@@ -34,7 +34,7 @@
 }
 
 .menu-container {
-    max-width: 1200px;
+    max-width: 97%;
     margin   : auto;
 }
 
@@ -158,6 +158,10 @@
 
             }
         }
+    }
+
+    .menu-unactive{
+        display: none;
     }
 }
 
@@ -582,3 +586,24 @@
     box-shadow: 0 0 20px gray;
 }
 
+
+@max991: ~"(max-width:991px)";
+
+@media @max991{
+    .menu-link{
+        .menu-unactive{
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 90vw;
+            margin: auto;
+            ul{
+
+                .new-york-li{
+                    background-color: #f1f8ff;
+                }
+            }
+        }
+    }
+    
+}
