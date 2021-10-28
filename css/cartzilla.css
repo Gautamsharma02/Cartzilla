@@ -472,7 +472,7 @@
 }
 .restaurants:hover {
   border: none;
-  box-shadow: 0 0 20px gray;
+  box-shadow: 0 0 20px gray !important;
 }
 @media (max-width:991px) {
   .menu-link .menu-unactive {
